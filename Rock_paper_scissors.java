@@ -14,8 +14,8 @@ public class Rock_paper_scissors {
             int comp_win_count=0;
             int count=0;
             do {
-                int num = (int) (1+Math.random() * 3 );
-
+                int num = (int) (1+Math.random() * 3 );//Creates a random number.
+                                                        
 
                 char input;
                 char comp_choice = 0;
